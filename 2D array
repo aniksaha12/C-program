@@ -1,0 +1,21 @@
+#include<stdio.h>
+void main(intA[10][10],int r1,int c1);
+void matrix mul(int A[10][10],int B[10][10],int C[10][10]);
+void display LD(int C[10][10],int r2,int c2);
+void main()
+{
+    int r1,c1,r2,c2,A[10][10],B[10][10],C[10][10];
+    printf ("Enter no of raw 2 column of matrix")
+    scanf("%d%d",&r1,&c1);
+    printf("Enter no of raw 2 column of matrix B")
+    scanf("%d%d",&r2,&c2);
+    if (c1==r2)
+    {
+
+            printf("Enter array element of A");
+            Input 2D(A,r1,c1);
+            printf("Enter array element of B");
+            Input 2D(B,b2,c2);
+
+    }
+}
